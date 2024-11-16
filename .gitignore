@@ -44,4 +44,4 @@ htmlcov/
 # Temporary files
 *.tmp
 *.bak
-.env
+*.env
