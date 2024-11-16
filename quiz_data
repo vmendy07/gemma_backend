@@ -1,0 +1,179 @@
+    quiz_data = {
+        "platform_name": "CodeQuiz Pro",
+        "total_quizzes": 2,
+        "quizzes": [
+            {
+                "quiz_id": "python_basics_101",
+                "quiz_title": "Python Fundamentals",
+                "total_questions": 5,
+                "timestamp": "2024-11-16T14:30:00Z",
+                "results": [
+                    {
+                        "user_id": "u123",
+                        "username": "python_ninja",
+                        "experience_level": "intermediate",
+                        "answers": [
+                            {
+                                "question_id": "q1",
+                                "question_type": "code_completion",
+                                "topic": "loops",
+                                "user_answer": "for i in range(10):",
+                                "correct_answer": "for i in range(10):",
+                                "answer_time": 12.5,
+                                "is_correct": True,
+                                "confidence_level": 0.9,
+                                "attempts": 1
+                            },
+                            {
+                                "question_id": "q2",
+                                "question_type": "multiple_choice",
+                                "topic": "data_types",
+                                "user_answer": "list",
+                                "correct_answer": "list",
+                                "answer_time": 8.2,
+                                "is_correct": True,
+                                "confidence_level": 0.95,
+                                "attempts": 1
+                            }
+                        ],
+                        "total_score": 85,
+                        "completion_time": 39.5,
+                        "streak": 2
+                    },
+                    {
+                        "user_id": "u456",
+                        "username": "code_master",
+                        "experience_level": "advanced",
+                        "answers": [
+                            {
+                                "question_id": "q1",
+                                "question_type": "code_completion",
+                                "topic": "loops",
+                                "user_answer": "while i < 10:",
+                                "correct_answer": "for i in range(10):",
+                                "answer_time": 15.3,
+                                "is_correct": False,
+                                "confidence_level": 0.7,
+                                "attempts": 2
+                            },
+                            {
+                                "question_id": "q2",
+                                "question_type": "multiple_choice",
+                                "topic": "data_types",
+                                "user_answer": "list",
+                                "correct_answer": "list",
+                                "answer_time": 5.1,
+                                "is_correct": True,
+                                "confidence_level": 1.0,
+                                "attempts": 1
+                            }
+                        ],
+                        "total_score": 70,
+                        "completion_time": 45.2,
+                        "streak": 1
+                    }
+                ],
+                "metadata": {
+                    "average_completion_time": 42.35,
+                    "participation_rate": 0.85,
+                    "difficulty_rating": "intermediate",
+                    "tags": ["python", "basics", "programming"],
+                    "language": "python",
+                    "platform": "web"
+                }
+            },
+            {
+                "quiz_id": "python_advanced_201",
+                "quiz_title": "Advanced Python Concepts",
+                "total_questions": 5,
+                "timestamp": "2024-11-16T16:45:00Z",
+                "results": [
+                    {
+                        "user_id": "u123",
+                        "username": "python_ninja",
+                        "experience_level": "intermediate",
+                        "answers": [
+                            {
+                                "question_id": "q1",
+                                "question_type": "code_implementation",
+                                "topic": "decorators",
+                                "user_answer": "@property\ndef get_value(self):",
+                                "correct_answer": "@property\ndef get_value(self):",
+                                "answer_time": 25.8,
+                                "is_correct": True,
+                                "confidence_level": 0.8,
+                                "attempts": 1
+                            },
+                            {
+                                "question_id": "q2",
+                                "question_type": "code_debugging",
+                                "topic": "generators",
+                                "user_answer": "yield from range(10)",
+                                "correct_answer": "yield from range(10)",
+                                "answer_time": 18.4,
+                                "is_correct": True,
+                                "confidence_level": 0.85,
+                                "attempts": 1
+                            }
+                        ],
+                        "total_score": 90,
+                        "completion_time": 62.3,
+                        "streak": 3
+                    },
+                    {
+                        "user_id": "u789",
+                        "username": "debug_queen",
+                        "experience_level": "expert",
+                        "answers": [
+                            {
+                                "question_id": "q1",
+                                "question_type": "code_implementation",
+                                "topic": "decorators",
+                                "user_answer": "@property\ndef get_value(self):",
+                                "correct_answer": "@property\ndef get_value(self):",
+                                "answer_time": 15.2,
+                                "is_correct": True,
+                                "confidence_level": 0.95,
+                                "attempts": 1
+                            },
+                            {
+                                "question_id": "q2",
+                                "question_type": "code_debugging",
+                                "topic": "generators",
+                                "user_answer": "yield range(10)",
+                                "correct_answer": "yield from range(10)",
+                                "answer_time": 20.1,
+                                "is_correct": False,
+                                "confidence_level": 0.9,
+                                "attempts": 1
+                            }
+                        ],
+                        "total_score": 85,
+                        "completion_time": 48.7,
+                        "streak": 5
+                    }
+                ],
+                "metadata": {
+                    "average_completion_time": 55.5,
+                    "participation_rate": 0.72,
+                    "difficulty_rating": "advanced",
+                    "tags": ["python", "advanced", "decorators", "generators"],
+                    "language": "python",
+                    "platform": "web"
+                }
+            }
+        ],
+        "platform_metadata": {
+            "total_users": 3,
+            "unique_users": {
+                "u123": "python_ninja",
+                "u456": "code_master",
+                "u789": "debug_queen"
+            },
+            "average_platform_completion_time": 48.925,
+            "overall_participation_rate": 0.785,
+            "supported_languages": ["python"],
+            "quiz_categories": ["basics", "advanced"],
+            "last_updated": "2024-11-16T16:45:00Z"
+        }
+    }
